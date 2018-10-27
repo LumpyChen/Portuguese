@@ -1,0 +1,31 @@
+.container {
+  padding: 40rpx;
+  box-sizing: border-box;
+}
+.quest {
+  width: 80%;
+  margin: 0 auto;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-bottom: 40rpx;
+  font-weight: bold;
+}
+.res {
+  font-family: Times;
+  width: 80%;
+  margin: 0 auto;
+  height: 200rpx;
+}
+.res-correct {
+  color: green;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.res-wrong {
+  color: red;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.ans {
+  font-weight: bold;
+}

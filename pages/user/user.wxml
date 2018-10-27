@@ -1,0 +1,30 @@
+<view class="container">
+  <view class="user_info">
+    <button class="user_btn" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image class="user_info_avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="user_info_name">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="user_list" >
+    <view class="user_list_item" data-tp='level' bindtap='adjLevel'>
+      <image src='../../images/level.png'></image>
+      调整难度
+    </view>
+    <!-- <view class="user_list_item" data-tp='add' bindtap='displayModal'>
+      <image src='../../images/spell.png'></image>
+      添加单词
+    </view> -->
+    <view class="user_list_item" bindtap="cleanStorage">
+      <image src='../../images/cache.png'></image>
+      清除缓存</view>
+    <view class="user_list_item" data-tp='about' bindtap='aboutUsTap'>
+      <image src='../../images/aboutus.png'></image>
+      关于我们
+    </view>
+    <view class="user_list_item" bindtap="contactService">
+      <image src='../../images/service.png'></image>
+      联系客服
+    </view>
+  </view>
+</view>

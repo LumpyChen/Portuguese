@@ -1,0 +1,38 @@
+button {
+  background-color: #9b59b6;
+  border: none;
+  color: #ffffff;
+}
+
+.container {
+  padding: 40rpx;
+  box-sizing: border-box;
+}
+
+.result {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.audio {
+  display: none;
+}
+.content {
+  display:block;
+  margin:0 auto;
+  width:80%;
+  font-family:Times;
+  margin-top:50rpx;
+}
+.word {
+  font-weight:bold;
+  font-size:50rpx;
+  margin-bottom: 30rpx;
+}
+.speaker {
+  width: 80rpx;
+  height: 80rpx;
+  position: relative;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}

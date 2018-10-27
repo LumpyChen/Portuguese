@@ -1,0 +1,14 @@
+<view class="container">
+  <view>
+   <image bindtap="playSound" class="speaker" src='../../../images/speaker.png'></image>
+  <text class="tips">
+    　　按下喇叭聆听读音，选择你是否可以在例句中找到该单词：
+  </text>
+    <view class="example">
+      　　
+      <text>“{{example}}”</text>
+    </view>
+  </view>
+  <button class="know" type="primary" bindtap='newWord'> 认识 </button>
+  <button class="unknow" type="warn" bindtap="goInfo"> 不认识 </button>
+</view>

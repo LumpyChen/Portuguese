@@ -1,0 +1,13 @@
+<view class="container">
+  <view>
+    <view class="content">
+      <view class="word">{{word}}</view>
+      <view class='trans'>{{meaning}}</view>
+      <image bindtap="playSound" class="speaker" src='../../../images/speaker.png'></image>
+    </view>
+    <view class="example">
+    　　“{{example}}”
+    </view>
+  </view>
+  <button class="know" bindtap='newWord'> 知道了 </button>
+</view>

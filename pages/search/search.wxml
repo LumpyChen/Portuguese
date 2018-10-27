@@ -1,0 +1,23 @@
+<view class="container">
+  <input placeholder="输入葡语单词" auto-focus bindinput='bindKeyInput' />
+  <button bindtap='bindSearch'>搜索</button>
+  <view class="result">
+     <view class='nores' wx:if="{{empty}}">
+      没有找到该单词！
+    </view> 
+    <view class='res' wx:if="{{showAns}}">
+      <view>
+        <view class="content">
+          <view class="word">{{resWord}}</view>
+          <view class='trans'>{{resTrans}}</view>
+          <image bindtap="playSound" class="speaker" src='../../images/speaker.png'></image>
+          <view class="example">
+        　　“{{resExam}}”
+        </view>
+        </view>
+        <audio id="speak" class="audio" name="sth" src="http://fanyi.baidu.com/gettts?lan=pt&text={{resWord}}&source=web" controls>
+        </audio> 
+      </view>
+    </view>
+  </view>
+</view>

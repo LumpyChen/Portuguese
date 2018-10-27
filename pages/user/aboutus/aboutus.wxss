@@ -1,0 +1,5 @@
+.aboutus-wrap {
+  padding: 150rpx 0;
+  margin: 0 100rpx;
+  width: auto;
+}

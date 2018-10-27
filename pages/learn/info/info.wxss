@@ -1,0 +1,39 @@
+.audio {
+  display: none;
+}
+.content {
+  display:block;
+  margin:0 auto;
+  width:75%;
+  font-family:Times;
+  margin-top:150rpx;
+}
+.word {
+  font-weight:bold;
+  font-size:60rpx;
+  margin-bottom: 50rpx;
+}
+.trans {
+
+}
+.speaker {
+  width: 50rpx;
+  height: 50rpx;
+  padding-top: 50rpx;
+  padding-bottom: 50rpx;
+}
+.tips {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 50rpx;
+}
+.example {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  font-family: Times;
+}
+.know {
+  margin-top: 100rpx;
+}

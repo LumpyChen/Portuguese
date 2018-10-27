@@ -1,0 +1,26 @@
+.audio {
+  /* display: none; */
+}
+.speakerA {
+  width: 120rpx;
+  height: 120rpx;
+  margin: 0 auto;
+  padding-top: 150rpx;
+  padding-bottom: 50rpx;
+  display: block;
+}
+.tips {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 50rpx;
+}
+.example {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  font-family: Times;
+}
+.know {
+  margin-top: 100rpx;
+}

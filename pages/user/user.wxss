@@ -1,0 +1,73 @@
+.container {
+  position: relative;
+}
+.user_info {
+  height: 280rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 80rpx;
+}
+.user_btn {
+  margin-bottom: 0;
+}
+.user_info_avatar {
+  height: 160rpx;
+  width: 160rpx;
+  border-radius: 80rpx;
+  margin-right: 80rpx;
+}
+.user_info_name {
+  font-weight: bold;
+}
+.user_list {
+  width: 100%;
+}
+.user_list_item {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  height: 120rpx;
+  line-height: 120rpx;
+  padding: 0 40rpx;
+  background-color: #fff;
+  border-bottom: 8rpx solid #EFEFEF;
+}
+.user_list_item image {
+  height: 40rpx;
+  width: 40rpx;
+  margin: 40rpx 0;
+  margin-right: 30rpx;
+}
+
+.modal-box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0.5;
+}
+.modal-body {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(-50%);
+  padding: 30rpx 0;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+.modal-title {
+  height: 100rpx;
+  line-height: 100rpx;
+  width: 80%;
+  margin: 0 auto;
+}
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
